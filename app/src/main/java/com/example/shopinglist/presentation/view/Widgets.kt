@@ -24,6 +24,11 @@ import com.example.shopinglist.data.DaoProducts
 import com.example.shopinglist.presentation.viewmodel.ShoppingListViewModel
 import com.example.shopinglist.ui.theme.ShopingListTheme
 
+/**
+ * Виджет с полем ввода и кнопкой
+ *
+ * @param viewModel Вьюмодель главного экрана
+ */
 @Composable
 fun EditTextWithButton(
     viewModel: ShoppingListViewModel
